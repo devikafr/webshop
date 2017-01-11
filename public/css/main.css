@@ -36,5 +36,28 @@ h2{
 #product-table tr,#product-table td{
    border: 1px solid black;
    padding: 10px 10px;
+}
 
+#product-table {
+  display: flex;
+}
+.products_table {
+  border: 1px solid lightgrey;
+  margin-left: 5%;
+  display: flex;
+  width: 20%;
+}
+.product_table img {
+  width: 100%;
+}
+.product_table .image_name {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.product_table .product_price {
+  background-color:rgba(140, 196, 204, 0.5);
+  text-align: center;
+  width: 60px;
+  height: 48px;
 }
